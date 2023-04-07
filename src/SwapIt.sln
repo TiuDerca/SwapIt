@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33402.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapIt", "SwapIt.csproj", "{8CD6A2E2-B82C-4742-BA73-416988B2EE69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CD6A2E2-B82C-4742-BA73-416988B2EE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD6A2E2-B82C-4742-BA73-416988B2EE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD6A2E2-B82C-4742-BA73-416988B2EE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD6A2E2-B82C-4742-BA73-416988B2EE69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5831637B-3880-4039-8CEF-261AC0351E69}
+	EndGlobalSection
+EndGlobal
