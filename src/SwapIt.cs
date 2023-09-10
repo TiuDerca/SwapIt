@@ -46,6 +46,14 @@ public class SwapIt : BaseSettingsPlugin<SwapItSetting>
 
     private async void AddClick(MouseButtons mouseButtons)
     {
+
+        if (GameController?.Game?.IngameState?.Data?.LocalPlayer == null || GameController?.IngameState?.IngameUi == null)
+            return;
+            
+        var chatField = GameController?.IngameState?.IngameUi?.ChatPanel?.Children[3]?.IsVisible;
+        
+        if (chatField != null && (bool)chatField)
+            return;
         if (!Settings.Enable)
             return;
 
